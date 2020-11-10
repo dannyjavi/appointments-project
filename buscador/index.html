@@ -1,0 +1,34 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div id="calendario"></div>
+<div id="ventanaModal" title="Citas">
+
+  <form>
+
+    <input type="text" id="paciente" placeholder="Nombre del paciente" autocomplete="off"><br>
+    <input type="text" id="identificacion">
+
+                  <input type="hidden" id="apptStartTime"/>
+                  <input type="hidden" id="apptEndTime"/>
+                  <input type="hidden" id="apptAllDay" />
+
+    <textarea id="descripcion" name="tratamientos" placeholder="Escriba la descripcion"></textarea><br>
+
+            <label for="cuando" class="control-label">Cuando:</label>
+            <div  id="cuando"></div>
+
+    <button id="guardar" class="btn btn-large">Guardar </button>
+
+  </form>
+</div>
+
+  <script type="text/javascript" href="prueba.js">
+    
+  </script>
+</body>
+</html>
